@@ -88,6 +88,7 @@ nav{
     font-weight: 100;
     color: #fff;
     line-height: 1.5em;
+    padding-right: 10px;
 }
 
 .hero-info ul{
@@ -140,7 +141,7 @@ nav{
     padding: 20px 40px ;
     align-items: center;
     margin: -10vh auto auto;
-    height: 10vh;
+    height: 15vh;
     box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.5);
     
 
@@ -172,6 +173,274 @@ form input::placeholder{
 }
 
 form label{
-    font-size: 0.6em;
+    font-size: 0.8em;
     margin-bottom: 2vh;
 }
+
+/* main section */
+
+.main-section{
+  width: 75%;
+  /* background-color: #00acee; */
+  margin: auto;
+  padding: 20px 0px;
+
+}
+
+.upcoming-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upcoming-header .selection{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.upcoming-header select{
+  background-color: #F2F4FF;
+  border: none;
+  outline: none;
+  padding: 15px 15px;
+  border-radius: 25px;
+  width: 30%;
+  color: #242565;
+  font-size: 0.9em;
+  font-weight: bold;
+  
+
+}
+
+.upcoming-header h1{
+  color: #242565;
+  font-size: 2.5em;
+}
+
+.upcoming-main{
+  margin: 0;
+}
+
+.upcoming-main .first-line{
+  margin-bottom: 40px;
+}
+
+.upcoming-main .first-line, .second-line{
+  display: flex;
+  /* background-color: #242565; */
+  justify-content: space-between;
+}
+
+.event-card{
+  box-shadow: 0px 10px 30px rgba(119, 115, 170, 0.2);
+  width: 30%;
+}
+
+.event-card img{
+  width: 100%;
+}
+
+.card-info{
+  display: flex;
+  padding: 10px 50px 10px 10px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.card-info .event-date{
+  margin-top: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.card-info .event-date .event-month{
+  color: #3D37F1;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.card-info .event-date .event-day{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-info .event-details p{
+  font-size: 0.8em;
+  color: #6d6d6d;
+}
+
+.load-more-btn{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+#load-more-btn{
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: transparent;
+  border : 2px solid #3D37F1;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+#load-more-btn a{
+  text-decoration: none;
+  color: #3D37F1;
+}
+
+.brands .join-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #EEE1FF;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
+
+.brands .join-section h2{
+  text-align: center;
+  color: #242565;
+  font-size: 2.5em;
+}
+
+.brands .join-section h4{
+  text-align: center;
+  color: #6A6A6A;
+  font-weight: 400;
+}
+
+.brands .brands-icons{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15vh;
+
+}
+
+.brands .brands-icons img{
+  height: 10vh;
+  width: 10%;
+  margin: 0px 40px;
+}
+
+.blog-section-head{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
+
+.blog-section-head h2{
+  text-align: center;
+  color: #242565;
+  font-size: 2.5em;
+}
+
+.blog-section-head h4{
+  text-align: center;
+  color: #6A6A6A;
+  font-weight: 400;
+}
+
+.blog{
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  padding: 20px 50px;
+  margin: auto;
+}
+
+.blog .blog-card{
+  width:30%;
+  border-radius: ;
+}
+
+.blog .blog-card img{
+  border-radius: 25px;
+}
+
+.blog .card-info .card-details h2{
+  color: #242565;
+}
+
+.blog .card-info .card-details h4{
+  color: #6A6A6A;
+  font-weight: 400;
+}
+
+/* footer  */
+footer{
+  width: 100%;
+  background-color: #0A075F;
+  color: #fff;
+  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 10vh;
+}
+
+footer .footer-container .about{
+  width: 30%;
+}
+
+footer .footer-container .newsletter .mailfield{
+  /* position: absolute; */
+}
+
+.footer-container .newsletter .mailfield input{
+  position: absolute;
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  width: 300px;
+
+}
+
+footer .footer-container .newsletter .mailfield button{
+  position: relative;
+  border: none;
+  background-color: #F5167E;
+  color: #fff;
+  padding: 15px 15px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 0.8em;
+  margin: 5px 200px;
+  width: 150px;
+}
+/* footer h4{
+  color: #fff; */
+
+.copyright h4{
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
