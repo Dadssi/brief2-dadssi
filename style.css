@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto';
+    background-image: url(images/bg-main-login1.png);
 }
 /* Header section */
 header{
@@ -407,7 +408,7 @@ footer .footer-container .about img{
 }
 
 footer .footer-container .newsletter .mailfield button{
-  position: relative;
+  position: absolute;
   border: none;
   background-color: #F5167E;
   color: #fff;
@@ -434,7 +435,6 @@ footer .footer-container .newsletter .mailfield button{
   padding: 20px 40px ;
   align-items: center;
   margin: -10vh auto auto;
-  height: 15vh;
   box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -445,3 +445,75 @@ footer .footer-container .newsletter .mailfield button{
   margin: 2vh auto auto;
 }
 
+.login-bg{
+  padding-top: 15vh;
+}
+.login-bg .main-login-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background-color: rgba(237, 70, 144, 20%);
+  align-items: center;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10vh;
+  
+}
+
+.main-login-section h1{
+  padding-bottom: 5vh;
+}
+.main-login-section input{
+  margin-bottom: 5vh;
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #F5167E;
+  outline: none;
+  background: transparent;
+  padding: 1%;
+  
+}
+
+.main-login-section .continue-button{
+  margin-bottom: 5vh;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient( #F5167E,#8F0D4A);
+  padding: 3vh 0;
+  color: #fff;
+}
+
+.main-login-section .twitter{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgba(29, 161, 242, 0.90);
+  color: #fff;
+  padding: 1%;
+}
+
+.main-login-section .twitter img{
+  margin-right: 20%;
+}
+
+.main-login-section .facebook{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(41, 83, 150, 0.90);
+  color: #fff;
+  padding: 1%;
+}
+
+.main-login-section .facebook img{
+  margin-right: 20%;
+}
