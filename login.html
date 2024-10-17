@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
     <title>Home page</title>
 </head>
 <body>
@@ -19,7 +22,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Speakers</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a class="login-btn" href="#">Login</a></li>
+                        <li><a class="login-btn" href="login.html">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,29 +44,57 @@
     </header>
     <!-- Login Section -->
     <section class="login-section">
-        <div class="search-events">
-            <form>
-                <label for="event-search">Search Event</label>
-                <input type="search" id="event-search" name="gsearch" placeholder="Konser Jazz">
-              </form>
-        </div>
-        <div class="place">
-            <form>
-                <label for="search-place">Place</label>
-                <input type="search" id="search-place" name="search-place" placeholder="Indonesia">
-            </form>
-        </div>
-        <div class="time">
-            <form>
-                <label for="search-place">Time</label>
-                <input type="search" id="search-place" name="search-place" placeholder="Any day">
-            </form>
-        </div>
+        <h1>Welcome</h1>
     </section>
-
-
-    <img src="captures d'écran des maquettes/Page Login.png" alt="" style="width: 100%;">
+    <!-- main login section -->
     
+
+
+    <img style="width:100%" src="captures d'écran des maquettes/Page Login.png" alt="">
+    <footer>
+        <div class="footer-container">
+            <div class="about">
+                <div class="logo">
+                    <img src="images/logo1.png" alt="Eventick-logo">
+                </div>
+                <p>Eventick is a global self-service ticketing platform for live experiences that allows anyone to create, share, 
+                    find and attend events that fuel their passions and enrich their lives.
+                </p>
+                <div class="social-icons">
+                    <img src="images/fb-icon.png" alt="facebook icon">
+                    <img src="images/twitter-icon.png" alt="twitter icon">
+                    <img src="images/linkedin-icon.png" alt="linkedin icon">
+                </div>
+            </div>
+            <div class="plan-events">
+                <h2>Plan Events</h2>
+                <div><a href="#">Create and Set up</a></div>
+                <div><a href="#">Sell Tickets</a></div>
+                <div><a href="#">Online RSVB</a></div>
+                <div><a href="#">Online Events</a></div>
+            </div>
+            <div class="footer-back-menu">
+                <h2>Eventick</h2>
+                <div><a href="#">About Us</a></div>
+                <div><a href="#">Press</a></div>
+                <div><a href="#">Contact Us</a></div>
+                <div><a href="#">How It works</a></div>
+                <div><a href="#">Privacy</a></div>
+                <div><a href="#">Terms</a></div>
+            </div>
+            <div class="newsletter">
+                <h2>Stay in The Loop</h2>
+                <p>Join Our mailing list to stay in the loop with our newest for Event and Concert</p>
+                <div class="mailfield">
+                    <input type="email" id="mail" placeholder="Enter your e-mail adress">
+                    <button><a href="#">Subscribe Now</a></button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <h4>copyright &copy dadssi</h4>
+        </div>
+    </footer>
 </body>
-<script src="https://kit.fontawesome.com/8dd174d5fa.js" crossorigin="anonymous"></script>
 </html>

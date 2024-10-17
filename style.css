@@ -426,3 +426,22 @@ footer .footer-container .newsletter .mailfield button{
 }
 
 
+.login-section{
+  background-color: #242565;
+  border-radius: 20px;
+  color: #fff;
+  width: 70%;
+  padding: 20px 40px ;
+  align-items: center;
+  margin: -10vh auto auto;
+  height: 15vh;
+  box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.login-section h1{
+  text-align: center;
+  font-family:"Stick No Bills" ;
+  font-size: 4em;
+  margin: 2vh auto auto;
+}
+
