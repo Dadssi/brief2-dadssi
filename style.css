@@ -25,7 +25,6 @@ nav{
 }
 
 .links{
-    /* display: flex; */
     justify-content: space-between;
 }
 
@@ -182,7 +181,6 @@ form label{
 }
 
 /* main section */
-
 .main-section{
   width: 75%;
   margin: auto;
@@ -211,8 +209,6 @@ form label{
   color: #242565;
   font-size: 0.9em;
   font-weight: bold;
-  
-
 }
 
 .upcoming-header h1{
@@ -316,7 +312,6 @@ form label{
   display: flex;
   justify-content: center;
   margin-bottom: 15vh;
-
 }
 
 .brands .brands-icons img{
@@ -429,7 +424,7 @@ footer .footer-container .newsletter .mailfield button{
   font-weight: 400;
 }
 
-
+/* login page  */
 .login-section{
   background-color: #242565;
   border-radius: 20px;
@@ -451,6 +446,7 @@ footer .footer-container .newsletter .mailfield button{
 .login-bg{
   padding-top: 15vh;
 }
+
 .login-bg .main-login-section{
   display: flex;
   flex-direction: column;
@@ -461,12 +457,12 @@ footer .footer-container .newsletter .mailfield button{
   border-radius: 25px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
   margin-bottom: 10vh;
-  
 }
 
 .main-login-section h1{
   padding-bottom: 5vh;
 }
+
 .main-login-section input{
   margin-bottom: 5vh;
   width: 50%;
@@ -475,7 +471,6 @@ footer .footer-container .newsletter .mailfield button{
   outline: none;
   background: transparent;
   padding: 1%;
-  
 }
 
 .main-login-section .continue-button{
@@ -486,6 +481,12 @@ footer .footer-container .newsletter .mailfield button{
   background: linear-gradient( #F5167E,#8F0D4A);
   padding: 3vh 0;
   color: #fff;
+}
+
+.main-login-section .continue-button a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .main-login-section .twitter{
@@ -517,22 +518,22 @@ footer .footer-container .newsletter .mailfield button{
   padding: 1%;
 }
 
+.main-login-section .facebook a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-login-section .twitter a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .main-login-section .facebook img{
   margin-right: 20%;
 }
 
 /* speakers page */
-main{
-  /* width: 100%; */
-}
-.speakers{
-  /* background-color:#7778B0; */
-  /* width: 100%; */
-
-}
-
 .speakers .first-line{
-  /* background-color: #F5167E; */
   display: flex;
   justify-content: space-around;
   width: 80%;
@@ -540,7 +541,6 @@ main{
 }
 
 .speakers .second-line{
-  /* background-color: #F5167E; */
   display: flex;
   justify-content: space-around;
   width: 80%;
@@ -564,7 +564,6 @@ main{
   padding: 5px;
   border-radius: 25px;
   width: 80%;
-  /* height: 100px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -576,6 +575,7 @@ main{
   width: 100%;
   border-radius: 25px;
 }
+
 .speakers .second-line .speaker-card img{
   width: 100%;
   border-radius: 25px;
@@ -586,16 +586,80 @@ main{
   color: #fff;
   font-size: 1.3rem;
 }
+
 .speakers .first-line .speaker-card span{
   text-align: center;
   color: #fff;
   font-size: 1.3rem;
 }
+
 .speakers .second-line .speaker-card p{
   text-align: center;
   color: #C4C4C4;
 }
+
 .speakers .first-line .speaker-card p{
   text-align: center;
   color: #C4C4C4;
+}
+
+/* about page */
+
+.container {
+  width: 70%;
+  background-color: #EEE1FF;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  background-color: #EEE1FF;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.text , .image{
+  width: 50%;
+}
+
+#ticket{
+max-width: 100%;
+height: auto;
+display: block;
+border-radius: 8px 8px 0 0;
+}
+#creators{
+max-width: 100%;
+height: auto;
+display: block;
+}
+#gnawa{
+max-width: 100%;
+height: auto;
+display: block;
+border-radius: 0 0 8px 8px;
+}
+
+.text h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-family: "Stick No Bills";
+  font-size: 3rem;
+  text-align: center;
+}
+
+.text p {
+  color: #666;
+  line-height: 2;
+  font-size: 1.2rem;
 }
