@@ -146,8 +146,6 @@ nav{
     margin: -10vh auto auto;
     height: 15vh;
     box-shadow: 10px 5px 15px 0px rgba(0, 0, 0, 0.5);
-    
-
 }
 
 .search-events, .place, .time{
@@ -167,7 +165,6 @@ form input{
     border-bottom: 2px solid #7778B0;
     color: #fff;
     outline: none;
-    
 }
 
 form input::placeholder{
@@ -185,7 +182,6 @@ form label{
   width: 75%;
   margin: auto;
   padding: 20px 0px;
-
 }
 
 .upcoming-header{
@@ -351,7 +347,6 @@ form label{
 
 .blog .blog-card{
   width:30%;
-  border-radius: ;
 }
 
 .blog .blog-card img{
