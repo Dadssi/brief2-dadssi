@@ -1,7 +1,10 @@
 body{
     margin: 0;
     font-family: 'Roboto';
-    background-image: url(images/bg-main-login1.png);
+}
+
+.loginpage-body{
+  background-image: url(images/bg-main-login1.png);
 }
 /* Header section */
 header{
@@ -516,4 +519,34 @@ footer .footer-container .newsletter .mailfield button{
 
 .main-login-section .facebook img{
   margin-right: 20%;
+}
+
+/* speakers page */
+main{
+  /* width: 100%; */
+}
+.speakers{
+  background-color:#7778B0;
+  /* width: 100%; */
+}
+
+.speakers .first-line, .seconde-line{
+  background-color: #F5167E;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.speaker-card{
+  background-color: darkorange;
+  width: 100%;
+  margin: 3rem;
+}
+
+.speakers .first-line .speaker-card img{
+  width: 100%;
+}
+.speakers .second-line .speaker-card img{
+  width: 100%;
 }

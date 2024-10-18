@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
     <title>Home page</title>
 </head>
-<body class="loginpage-body">
+<body>
     <!-- Header Section  -->
     <header>
         <nav>
@@ -42,33 +39,78 @@
             </div>
         </section>
     </header>
-    <!-- Login Section -->
-    <section class="login-section">
-        <h1>Welcome</h1>
+    <!-- Search an Event Section -->
+    <section class="event-section">
+        <div class="search-events">
+            <form>
+                <label for="event-search">Search Event</label>
+                <input type="search" id="event-search" name="gsearch" placeholder="Konser Jazz">
+              </form>
+        </div>
+        <div class="place">
+            <form>
+                <label for="search-place">Place</label>
+                <input type="search" id="search-place" name="search-place" placeholder="Indonesia">
+            </form>
+        </div>
+        <div class="time">
+            <form>
+                <label for="search-place">Time</label>
+                <input type="search" id="search-place" name="search-place" placeholder="Any day">
+            </form>
+        </div>
     </section>
-
-    <!-- main login section -->
-     <div class="login-bg">
-        <section class="main-login-section">
-            <h1>Login</h1>
-            <input type="email" required placeholder="Your e-mail">
-            <input type="password" required placeholder="**********">
-            <button class="continue-button">Continue</button>
-            <H3>Or Connect with</H3>
-            <div class="twitter">
-                <img src="images/twitter-icon.png" alt="twitter-icon">
-                <span>Sign in with Twitter</span>
+    <!-- main section -->
+     <main>
+        <div class="speakers">
+            <div class="first-line">
+                <div class="speaker-card">
+                    <img src="images/jason-statham.png" alt="jason-statham">
+                    <div class="speaker-info">
+                        <h2>Jason Statham</h2>
+                        <p>Super Start of Cinema<br>@Hollywood</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/dadssi.jpg" alt="dadssi">
+                    <div class="speaker-info">
+                        <h2>Dadssi Mohamed</h2>
+                        <p>Web Developer Student<br>@Youcode</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/Marie laurane.png" alt="marie-laurane">
+                    <div class="speaker-info">
+                        <h2>Marie Laurane</h2>
+                        <p>Journalist <br>@NewYork Times</p>
+                    </div>
+                </div>
             </div>
-            <div class="facebook">
-                <img src="images/fb-icon.png" alt="twitter-icon">
-                <span>Sign in with Facebook</span>
+            <div class="second-line">
+                <div class="speaker-card">
+                    <img src="images/tom-cruise.png" alt="Tom Cruise">
+                    <div class="speaker-info">
+                        <h2>Tom Cruise</h2>
+                        <p>Super Start of Cinema<br>@Hollywood</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/benjamain.png" alt="Benjamain">
+                    <div class="speaker-info">
+                        <h2>Benjamain</h2>
+                        <p>Business Man<br>@Dj World</p>
+                    </div>
+                </div>
+                <div class="speaker-card">
+                    <img src="images/John week.png" alt="">
+                    <div class="speaker-info">
+                        <h2>John Week</h2>
+                        <p>Baptizer of Jazz<br>@Hard Rock</p>
+                    </div>
+                </div>
             </div>
-     </section>
-     </div>
-    
-
-
-    <!-- <img style="width:100%" src="captures d'écran des maquettes/Page Login.png" alt=""> -->
+        </div>
+     </main>
     <footer>
         <div class="footer-container">
             <div class="about">
@@ -115,4 +157,5 @@
         </div>
     </footer>
 </body>
+<script src="https://kit.fontawesome.com/8dd174d5fa.js" crossorigin="anonymous"></script>
 </html>
