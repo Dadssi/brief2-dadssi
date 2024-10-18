@@ -526,27 +526,76 @@ main{
   /* width: 100%; */
 }
 .speakers{
-  background-color:#7778B0;
+  /* background-color:#7778B0; */
   /* width: 100%; */
+
 }
 
-.speakers .first-line, .seconde-line{
-  background-color: #F5167E;
+.speakers .first-line{
+  /* background-color: #F5167E; */
   display: flex;
   justify-content: space-around;
   width: 80%;
   margin: auto;
 }
 
+.speakers .second-line{
+  /* background-color: #F5167E; */
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: -100px;
+}
 .speaker-card{
-  background-color: darkorange;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 295px;
+  height: 450px;
   margin: 3rem;
+  position: relative;
+}
+
+.speaker-info{
+  background: rgb(36,37,101);
+  background: linear-gradient(90deg, rgba(36,37,101,1) 0%, rgba(72,74,203,1) 35%, rgba(36,37,101,1) 100%);
+  display: flex;
+  padding: 5px;
+  border-radius: 25px;
+  width: 80%;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 240px;
 }
 
 .speakers .first-line .speaker-card img{
   width: 100%;
+  border-radius: 25px;
 }
 .speakers .second-line .speaker-card img{
   width: 100%;
+  border-radius: 25px;
+}
+
+.speakers .second-line .speaker-card span{
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.speakers .first-line .speaker-card span{
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.speakers .second-line .speaker-card p{
+  text-align: center;
+  color: #C4C4C4;
+}
+.speakers .first-line .speaker-card p{
+  text-align: center;
+  color: #C4C4C4;
 }
