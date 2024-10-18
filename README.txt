@@ -12,5 +12,18 @@ en général j'ai utilisé les propriétés de CSS concernant le FLEXBOX, car je
 
 alors j'ai lié les pages entre elles pour qu'elle puissent nous donner une navigation facile et simple à l'utilisateur.
 
+1. : j'ai essayé d'avoir une idée générale sur le thème du site, ainsi que voir plusieurs modèles de design des sites pareilles, je me suis documenté un peu sur Figma parce que c'était ma première fois quand j'ai utilisé cet outil merveille que je trouve tres efficasse au design des maquettes des sites web et applications mobiles.
+
+2. : Alors j'ai commencé le travail par le design de la page SPEAKERS qui m'a pris beaucoup de temps car c'était ma première fois de manipuler Figma, mais les pages suivants étaient un peu facile, chose qui m'a plut finalement.
+
+3. après j'ai commencé l'intégration des pages une par une en utilisant le HTML et le CSS, en découvrant étape par étape plusieurs propriétés CSS fascinants
+
+4. j'ai essayé d'intégrer une version mobile mais malheureusement que le temps ne m'a pas suffi, mais je vais travailler des modèles pareilles pour pratiquer bien les média Queries vue de leurs importances au développement web
+
+tout au long de ces étapes, je pousse de temps en temps au GitHub pour que mon travail reste à jour jusqu'au push final en écrivant ce README file 
+
+Finalement j'ai hebergé mon site en GitHub pages et j'ai rendu le brief dans la plateforme Simplon
+
+
 
 
